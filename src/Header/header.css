@@ -1,0 +1,35 @@
+
+.header {
+  background-color: #2A9DF4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 100;
+    height: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .nav {
+    /* You can style your nav bar here if needed */
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    color: #ccc;
+  }
+  
