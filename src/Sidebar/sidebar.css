@@ -13,7 +13,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Sidebar Links */
+
 .link {
   background-color: #f4f4f4;
   padding: 15px;
@@ -45,7 +45,7 @@
   color: white;
 }
 
-/* Sidebar Toggle Button */
+
 .sidebar-toggle {
   display: none;
   position: fixed;

@@ -8,14 +8,6 @@ import Footer from './Footer/footer';
 
 import './App.css';
 
-// const router = createBrowserRouter([
-//   { path: "/",
-//     element: <Form />
-//    },
-//   { path: "/Content",
-//    element: <Content /> 
-//   }
-// ]);
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,10 +37,6 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div>
-      {/* <Header/>
-      <Sidebar/>
-      <RouterProvider router={router} />
-      <Footer/> */}
        <RouterProvider router={router} />
       </div>
   );

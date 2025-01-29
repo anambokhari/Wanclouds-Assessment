@@ -7,7 +7,7 @@ import './form.css';
 const Form = () => {
   const dispatch = useDispatch();
 
-  // State to hold form values
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -24,7 +24,7 @@ const Form = () => {
     phone: "",
   });
 
-  // Handle input changes
+
   const handleChange = (e) => {
     setFormData({
       ...formData,

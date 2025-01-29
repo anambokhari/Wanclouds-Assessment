@@ -1,37 +1,4 @@
-// import React from 'react'
-// import { useSelector } from "react-redux";
-// import './content.css';
 
-// const Content = () => {
-
-//   const formData = useSelector((state) => state.formData);
-
-//   return (
-//     <div className='displayData'>
-//       <h2>Saved Form Data</h2>
-//       {formData.length === 0 ? (
-//         <p>No data saved yet.</p>
-//       ) : (
-//         <ul>
-//           console.log(formData);
-//           {formData.map((data, index) => (
-//             <li key={index}>
-//               <strong>{data.firstName} {data.lastName}</strong> <br />
-//               Address: {data.address} <br />
-//               Company: {data.company} <br />
-//               Phone: {data.phone}
-//             </li>
-//           ))}
-//         </ul>
-//       )}
-     
-//     </div>
-//   );
-// };
-
-// export default Content;
-
-// Content.jsx
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteFormData } from "../Redux/store";
@@ -40,7 +7,7 @@ import './content.css';
 const Content = () => {
   const dispatch = useDispatch();
 
-  // Get the form data from Redux store
+
   const formData = useSelector((state) => state.formData);
 
   const handleDelete = (index) => {
